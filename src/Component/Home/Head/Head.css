@@ -1,0 +1,115 @@
+.header{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.header .sub-header{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header .sub-header .img-div{
+    width: 45%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: image 2s ease-in;
+}
+
+@keyframes image {
+    from{
+        scale: 0.5;
+        opacity: 10%;
+        filter: blur(100%);
+    }
+    to{
+        scale: 1;
+        opacity: 100%;
+        filter: blur(0%);
+    }
+}
+
+.header .sub-header .img-div img{
+    position: relative;
+    width: 100%;
+}
+.header .sub-header .text-div{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    animation: text 2s ;
+    position: relative;
+}
+
+@keyframes text {
+    from{
+        right: -10%;
+    }
+    to{
+        right: 0%;
+    }
+}
+
+.header .sub-header .text-div h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+.header .sub-header .text-div p{
+    font-size: 1rem;
+    line-height: 25px;
+    color: #090716;
+}
+.header .sub-header .text-div p span{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.header .sub-header .text-div a{
+    text-decoration: none;
+    text-decoration-line: none;
+    width: fit-content;
+}
+.header .sub-header .text-div a button{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.header .sub-header .text-div a button:hover{
+    background-color: transparent;
+    color: #30323d;
+    cursor: pointer;
+}.header .sub-header .text-div a button:active{
+    zoom: 95%;
+}
+
+
+
+@media screen and (max-width: 970px) {
+    .header .sub-header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header .sub-header .img-div{
+        width: 100%;
+    }
+    .header .sub-header .text-div{
+        width: 85%;
+        margin: 40px 0;
+        /* background-color: aqua; */
+    }
+}
+@media screen and (max-width: 510px) {
+    .header .sub-header .text-div{
+        width: 100%;
+    }
+    .header .sub-header .text-div h1{
+        font-size: 2.5rem;
+    }
+}

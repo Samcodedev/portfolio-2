@@ -1,0 +1,12 @@
+.cont2{
+    padding: 5% 5%;
+}
+.cont2 .cont-card{
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 1000px) {
+    .cont2 .cont-card{
+        flex-direction: column;
+    }
+}

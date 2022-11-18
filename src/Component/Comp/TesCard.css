@@ -1,0 +1,50 @@
+.tescard{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    background-image: -moz-linear-gradient();
+    background-image: linear-gradient(to bottom right, #4d5061, 20%, #30323d);
+    /* background-color: #07011b; */
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin: 50px 30px;
+}
+.tescard .img-div{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.tescard .img-div img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: -65px;
+    left: 32%;
+    border: 10px solid #30323d49;
+    border-radius: 20px;
+    pointer-events: none;
+}
+.tescard .text-div{
+    margin-top: 10px;
+}
+.tescard .text-div p{
+    color: #c2c0c0;
+}
+.tescard .text-div h4{
+    font-size: 1rem;
+    margin-top: 20px;
+    color: #7a7a7a;
+    font-weight: 800;
+    margin-block-end: 5px;
+}
+.tescard .text-div span{
+    font-weight: normal;
+}
+
+@media screen and (max-width: 454px) {
+    .tescard{
+        min-width: 200px;
+    }
+}

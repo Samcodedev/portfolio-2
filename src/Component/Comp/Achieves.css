@@ -1,0 +1,59 @@
+.achieves{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.achieves .experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    text-align: center;
+}
+.achieves .experience h1{
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    font-size: 10rem;
+    font-weight: bolder;
+    color: #fcd916;
+}
+.achieves .experience p{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: center;
+    color: #ffffff;
+}
+.achieves .cards{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    /* background-color: aqua; */
+}
+.achieves .cards .skillscard{
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+}
+.achieves .cards .skillscard p{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+.achieves .cards .skillscard span{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .achieves{
+        flex-direction: column;
+    }
+    .achieves .experience{
+        width: 100%;
+    }
+    .achieves .cards{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
