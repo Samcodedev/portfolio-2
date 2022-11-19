@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: column;
     min-width: 300px;
-    background-image: -moz-linear-gradient();
+    background-image: -moz-linear-gradient(to bottom right, #4d5061, 20%, #30323d);
     background-image: linear-gradient(to bottom right, #4d5061, 20%, #30323d);
     /* background-color: #07011b; */
     padding: 20px 20px;
     border-radius: 10px;
     margin: 50px 30px;
+    margin-left: 0;
 }
 .tescard .img-div{
     display: flex;

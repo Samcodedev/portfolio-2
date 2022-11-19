@@ -55,7 +55,7 @@
 }
 @media screen and (max-width: 600px) {
     .testimony .carousel{
-        width: 85%;
+        width: 80%;
     }
     .testimony .fade{
         left: 0%;

@@ -12,17 +12,17 @@ const Skills = () => {
     const data = [
         {
             icons: <TbSpeakerphone className='icons' />,
-            title: "Speeker",
+            title: "Public Speaker",
             text: "Am a speacker i speak in more that 100 places yearly."
         },
         {
             icons: <FaChalkboardTeacher className='icons' />,
-            title: "Coach",
+            title: "Media Personality",
             text: "I coach people on how to become an expert affiliate marketer."
         },
         {
             icons: <MdOutlineBusinessCenter className='icons' />,
-            title: "Business Consultant",
+            title: "Event Host",
             text: "I serve as a business consultant to alot of businesses out their."
         }
     ]
