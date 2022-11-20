@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #30323d;
+    margin-top: 20px;
+}
+.footer .sub-footer{
+    width: 90%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.footer .icon{
+    display: flex;
+    gap: 20px;
+}
+.footer .icon svg{
+    cursor: pointer;
+}
+.footer .icon svg:hover{
+    color: #fcd916;
+}
