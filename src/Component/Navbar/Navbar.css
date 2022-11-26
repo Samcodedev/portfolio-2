@@ -47,8 +47,27 @@
     color: #fcd916;
 }
 .navbar .dd ul button{
-    border: 2px solid #ffffff;
-    padding: 10px 20px;
+    border: 1.5px solid #ffffff;
+    padding: 3px 15px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar .dd ul button:hover{
+    border: 1.5px solid #fcd916;
+    color: #fcd916;
+}
+.navbar .dd ul button:hover #mails{
+    color: #fcd916;
+}
+.navbar .dd ul button span{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.navbar .dd ul button svg{
+    font-size: 25px;
 }
 
 
@@ -66,9 +85,9 @@
         flex-direction: column;
         /* background-color: #0a425c; */
         background-image: -moz-linear-gradient();
-        background-image: linear-gradient(to right, transparent 66%, #30323d 34%);
+        background-image: linear-gradient(to right, transparent 75%, #30323d 25%);
 
-        padding: 20px 20px;
+        padding: 20px 10px;
         right: 0;
         top: 40px;
     }
@@ -110,16 +129,32 @@
         from{
             right: -60px;
             position: relative;
-            opacity: 0%;
+            /* opacity: 0%; */
         }
         to{
             right: 0px;
             position: relative;
-            opacity: 100%;
+            /* opacity: 100%; */
         }
     }
     .navbar .dd:hover #tut{
-        animation: lli 4s ease-out;
+        animation: lli 2s;
+        font-weight: 400;
+        font-size: 15px;
+        padding: 5px 5px;
+        margin-left: 10px;
+    }
+    @keyframes aft {
+        from{
+            right: -31px;
+            position: relative;
+            opacity: 0%;
+        }
+        to{
+            right: -31px;
+            position: relative;
+            opacity: 100%;
+        }
     }
     .navbar .dd ul a li #tut::after{
         content: '';
@@ -127,11 +162,12 @@
         height: 18px;
         position: absolute;
         background-color: #30323d;
-        right: 87px;
+        right: 70px;
         transform: rotateZ(45deg);
+        animation: aft 2s;
     }
     .navbar .dd ul a li svg{
-        font-size: 35px;
+        font-size: 25px;
         color: #ffffff;
     }
     .navbar .dd ul button{
@@ -145,8 +181,22 @@
     .navbar .dd ul button span{
         color: #ffffff;
         font-weight: 400;
-        padding: 10px 5px;
+        padding: 8px 5px;
         width: 100px;
+        font-weight: 15px;
+        margin-left: 10px;
+    }
+    @keyframes aft2 {
+        from{
+            right: -18px;
+            position: relative;
+            opacity: 0%;
+        }
+        to{
+            right: -18px;
+            position: relative;
+            opacity: 100%;
+        }
     }
     .navbar .dd ul button span::after{
         content: '';
@@ -154,16 +204,20 @@
         height: 18px;
         position: absolute;
         background-color: #30323d;
-        right: 87px;
+        right: 73px;
         transform: rotateZ(45deg);
+        animation: aft2 2s;
     }
     .navbar .dd ul button #mail{
-        font-size: 35px;
+        font-size: 25px;
     }
     .navbar .dd:hover #mails{
-        animation: lli 4s ease-out;
+        animation: lli 2s;
     }
     .navbar .dd ul button:hover #mail, .navbar .dd ul button:hover #mails{
         color: #fcd916;
+    }
+    .navbar .dd ul button{
+        padding: 10px 20px;
     }
 }
