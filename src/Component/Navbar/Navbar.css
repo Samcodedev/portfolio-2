@@ -178,6 +178,9 @@
         align-items: center;
         background-color: transparent;
     }
+    .navbar .dd ul button:hover{
+        border: none;
+    }
     .navbar .dd ul button span{
         color: #ffffff;
         font-weight: 400;
