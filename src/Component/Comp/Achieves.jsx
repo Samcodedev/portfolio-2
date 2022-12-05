@@ -10,7 +10,7 @@ const Achieves = () => {
             text:"Students"
         },
         {
-            title:"+10",
+            title:"+04",
             text:"Awards"
         },
         {

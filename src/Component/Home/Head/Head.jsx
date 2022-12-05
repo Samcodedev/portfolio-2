@@ -15,8 +15,12 @@ const Head = () => {
             <div className="text-div">
                 <span>Hello i'm Gloria</span>
                 <h1>Public Speaker</h1>
-                <p>Hello my name is Joseph Inneh am an Affiliate marketer i can help you turn your MOBILE PHONE into an ATM MACHINE scroll down now.
-                i can help you turn your MOBILE PHONE into an ATM MACHINE scroll down now.
+                <p>
+                  Hello, I’m Gloria Olufeko and welcome to my world. 
+                  I am so excited to have you here. This is a platform where I can get to connect with my clients, share my values and career growth. 
+
+                  Please feel free to explore and book one or more of my services. 
+
                 </p>
                 <Link to="/about"><button>About Me <FaLongArrowAltRight fontSize="30px" /> </button></Link>
             </div>

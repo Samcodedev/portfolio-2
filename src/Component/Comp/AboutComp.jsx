@@ -12,7 +12,7 @@ const AboutComp = (props) => {
             <p>{props.content}</p>
             <img src={props.break} alt="background pic" />
             <p>{props.content2}</p>
-            <img src={props.break} alt="background pic" />
+            <img src={props.break2} alt="background pic" />
             <p>{props.content3}</p>
         </div>
     </div>
