@@ -1,6 +1,6 @@
 .navbar{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 0 20px;
     background-color: #30323d;
     position: sticky;
@@ -8,7 +8,7 @@
     z-index: 5;
 }
 .navbar .dd{
-    width: 100%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -74,6 +74,7 @@
 @media screen and (max-width: 970px) {
     .navbar{
         height: 70px;
+        justify-content: flex-end;
     }
     .navbar .dd{
         width: fit-content;
@@ -84,7 +85,7 @@
         position: absolute;
         flex-direction: column;
         /* background-color: #0a425c; */
-        background-image: -moz-linear-gradient();
+        background-image: -moz-linear-gradient(to right, transparent 75%, #30323d 25%);
         background-image: linear-gradient(to right, transparent 75%, #30323d 25%);
 
         padding: 20px 10px;
@@ -93,15 +94,17 @@
     }
     @keyframes ull {
         from{
+            top: 40px;
             right: -60px;
         }
         to{
             right: 0px;
+            top: 40px;
         }
     }
     .navbar .dd:hover ul{
         display: flex;
-        animation: ull 1s ease-out;
+        animation: ull 0.5s ease-out;
     }
     .navbar .dd #nav{
         cursor: pointer;
@@ -138,7 +141,7 @@
         }
     }
     .navbar .dd:hover #tut{
-        animation: lli 2s;
+        animation: lli 1.5s;
         font-weight: 400;
         font-size: 15px;
         padding: 5px 5px;
@@ -193,12 +196,10 @@
         from{
             right: -18px;
             position: relative;
-            opacity: 0%;
         }
         to{
             right: -18px;
             position: relative;
-            opacity: 100%;
         }
     }
     .navbar .dd ul button span::after{
