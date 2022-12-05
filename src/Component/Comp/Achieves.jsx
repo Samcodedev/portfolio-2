@@ -19,7 +19,7 @@ const Achieves = () => {
         },
         {
             title:"+50",
-            text:"Speack"
+            text:"Speak"
         }
     ]
 
