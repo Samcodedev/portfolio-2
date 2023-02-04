@@ -7,9 +7,9 @@
     margin: 10px;
     flex-grow: 2; 
 }
-.skillscard:active{
+/* .skillscard:active{
     zoom: 95%;
-}
+} */
 .skillscard:hover{
     background-color: #4d5061;
 }
