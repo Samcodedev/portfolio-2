@@ -3,7 +3,8 @@ import './About.css'
 import AboutComp from '../Comp/AboutComp'
 import prof from '../img/profile-2.png'
 import img1 from '../img/IMG_9504.jpg'
-import img2 from '../img/IMG_9765.jpg'
+import img2 from '../img/Screenshot_20230211-104210_Instagram.jpg'
+import img3 from '../img/IMG_9765.jpg'
 
 const About = () => {
 
@@ -14,6 +15,7 @@ const About = () => {
         content3: "Gloria is an excellent compere who has hosted myriads of events in and within Africa.  Clients describe Gloria as Professional, Put-together and Excellent. She has had several returning clients as a proof of her great delivery and poise, Her beautiful and dynamic voice is a selling point for Gloria as she has the ability to give life to your ideas both in video and audio format. Gloria is the voice behind some of the major brands you know. She voices adverts, jingles, books, documentaries, podcasts and the likes.",
         break: img1,
         break2: img2,
+        break3: img3,
         img: prof
     }
   return (
@@ -25,6 +27,7 @@ const About = () => {
         content3 ={data.content3}
         break ={data.break}
         break2 ={data.break2}
+        break3 ={data.break3}
         img ={data.img}
       />
     </div>

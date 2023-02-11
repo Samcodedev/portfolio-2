@@ -1,0 +1,43 @@
+.newsLetter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+}
+.newsLetter .news-card{
+    width: 85%;
+    padding: 10px;
+    background-color: #30323d;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.newsLetter .news-card h2{
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+.newsLetter .news-card h2 svg{
+    margin-left: 20px;
+    color: #fcd916;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.newsLetter .news-card button{
+    background-color: #fcd916;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin: 5px 10px;
+    cursor: pointer;
+    border: 2px solid #fcd916;
+}
+.newsLetter .news-card button:hover{
+    background-color: transparent;
+    color: #fcd916;
+    border: 2px solid #fcd916;
+}

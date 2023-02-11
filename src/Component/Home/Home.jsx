@@ -1,6 +1,7 @@
 import React from 'react'
 import Content from './Content/Content'
 import Head from './Head/Head'
+import NewsLetter from './NewsLetter/NewsLetter'
 import Skills from './Skills/Skills'
 import Testimony from './Testimony/Testimony.jsx'
 import Title from './Title/Title'
@@ -31,6 +32,7 @@ const Home = () => {
         sub={testimony.sub}
       />
       <Testimony />
+      <NewsLetter />
     </div>
   )
 }

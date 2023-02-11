@@ -12,8 +12,8 @@ const Cont4 = () => {
 
     const data4 = [
         {
-            title: "Why you should this offer and apply.",
-            content: "over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee.",
+            title: "Nigeria Healthcare Investment Forum",
+            content: "Gloria Olufeko also hosted an healthcare investment event, planning in enhancing healthcare investment in emerging markets.",
             gallery1: img1,
             gallery2: img2,
             gallery3: img3,

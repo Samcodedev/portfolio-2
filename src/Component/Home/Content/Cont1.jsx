@@ -12,8 +12,8 @@ import img4 from '../../img/IMG_7921.jpg'
 const Cont1 = () => {
     const data1 = [
         {
-            title: "Grab this exciting offer and apply.",
-            content: "over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee.",
+            title: "TEDX JIBOWU",
+            content: "Gloria olufeko, she's an award-winning media personality, hosted Tedxjibowu and other award winning events in Nigeria.",
             gallery1: img1,
             gallery2: img2,
             gallery3: img3,

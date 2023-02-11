@@ -9,10 +9,11 @@ const AboutComp = (props) => {
         </div>
         <div className="text-div">
             <h2>{props.title}</h2>
-            <p>{props.content}</p>
             <img src={props.break} alt="background pic" />
-            <p>{props.content2}</p>
+            <p>{props.content}</p>
             <img src={props.break2} alt="background pic" />
+            <p>{props.content2}</p>
+            <img src={props.break3} alt="background pic" />
             <p>{props.content3}</p>
         </div>
     </div>

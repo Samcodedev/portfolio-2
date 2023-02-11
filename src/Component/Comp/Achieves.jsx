@@ -6,19 +6,19 @@ const Achieves = () => {
 
     const data = [
         {
-            title:"+3500",
+            title:"3500+",
             text:"Students"
         },
         {
-            title:"+04",
+            title:"04+",
             text:"Awards"
         },
         {
-            title:"+700",
+            title:"700+",
             text:"Testimonies"
         },
         {
-            title:"+50",
+            title:"50+",
             text:"Speak"
         }
     ]

@@ -12,8 +12,8 @@ const Cont3 = () => {
 
     const data3 = [
         {
-            title: "Am excited for this offer and apply.",
-            content: "over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee.",
+            title: "Real Estate Excellence Awards 2022",
+            content: "Gloria Olufeko, she's also a real estate event host, hosted series of real estate award winning events and also hosted the Real Estate Excellence Awards 2022 and other events.",
             gallery1: img1,
             gallery2: img2,
             gallery3: img3,

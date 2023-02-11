@@ -12,8 +12,8 @@ const Cont2 = () => {
 
     const data2 = [
         {
-            title: "Why you should this offer and apply.",
-            content: "over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee. over 10,000+ talented people registered in our websitee.",
+            title: "Hapag-Lioyd",
+            content: "Gloria Olufeko, she's also an international host and compere, hosted Hapag-Lioyd and the Youthspark Leadership X-change and mentorship program in Kigali Rwanda.",
             gallery1: img1,
             gallery2: img2,
             gallery3: img3,
