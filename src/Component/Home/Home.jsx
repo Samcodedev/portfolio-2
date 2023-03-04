@@ -2,14 +2,14 @@ import React from 'react'
 import Content from './Content/Content'
 import Head from './Head/Head'
 import NewsLetter from './NewsLetter/NewsLetter'
-import Skills from './Skills/Skills'
+import Skill from './Skill/Skill'
 import Testimony from './Testimony/Testimony.jsx'
 import Title from './Title/Title'
 
 const Home = () => {
 
   const title = {
-    title: "Who am i",
+    title: "Recently Hosted Event",
     sub: "Check out to know more about me in each of my career part and recently hosted event and work."
   }
 
@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <div>
       <Head />
-      <Skills />
+      <Skill />
       <Title 
         title={title.title}
         sub={title.sub}

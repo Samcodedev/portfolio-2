@@ -10,6 +10,8 @@ const BlogComp = (props) => {
       <div className="text-div">
         <h2>{props.data.title}</h2>
         <p>{props.data.content}</p>
+        <p>{props.data.content2}</p>
+        <p>{props.data.content3}</p>
         <div className="gallery">
             <img src={props.data.gallery1} alt="gallery list" />
             <img src={props.data.gallery2} alt="gallery list" />

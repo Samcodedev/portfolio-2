@@ -2,18 +2,20 @@ import React from 'react'
 import ContCard from '../../Comp/ContCard'
 import './Cont1.css'
 
-import prof1 from '../../img/IMG_7711.jpg'
-import img1 from '../../img/IMG_7685.jpg'
-import img2 from '../../img/IMG_7695.jpg'
-import img3 from '../../img/IMG_7646.jpg'
-import img4 from '../../img/IMG_7921.jpg'
+import prof1 from '../../img/ABC_DAYONE-12 (1).JPG'
+import img1 from '../../img/ABC_DAYONE-11 (1).JPG'
+import img2 from '../../img/ABC_DAYONE-150.JPG'
+import img3 from '../../img/ABC_DAYONE-151.JPG'
+import img4 from '../../img/ABC_DAYONE-185 (1).JPG'
 
 
 const Cont1 = () => {
     const data1 = [
         {
-            title: "TEDX JIBOWU",
-            content: "Gloria olufeko, she's an award-winning media personality, hosted Tedxjibowu and other award winning events in Nigeria.",
+            title: "ABC CONFERENCE",
+            content: "Gloria was a co-host in The Conference(The Art, Business & Creativity) 2021 championed by the Gazma Education. It was a conference that brought together many high professionals who are distinct in their career path",
+            content2: "such as the Fire brand Debola Deji-Kurunmi, the renowned energetic speaker John Obidi and a living legend in Photography that is in person of Dayo Adedayo.",
+            content3: "It was a conference set to expound on the career of Art, Business and Creativity and Gloria did what she loves best in a spectacular way. ",
             gallery1: img1,
             gallery2: img2,
             gallery3: img3,

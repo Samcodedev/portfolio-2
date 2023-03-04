@@ -56,7 +56,7 @@
 }
 
 .header .sub-header .text-div h1{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
     margin-block-start: 5px;
     margin-block-end: 5px;
@@ -110,6 +110,6 @@
         width: 100%;
     }
     .header .sub-header .text-div h1{
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import ContCard from '../../Comp/ContCard'
 import './Cont3.css'
 
-import prof3 from '../../img/IMG_8340.jpg'
+import prof3 from '../../img/IMG-20230301-WA0047.jpg'
 import img1 from '../../img/IMG_9469.jpg'
 import img2 from '../../img/IMG_9442.jpg'
 import img3 from '../../img/IMG_9525.jpg'
@@ -12,8 +12,10 @@ const Cont3 = () => {
 
     const data3 = [
         {
-            title: "Real Estate Excellence Awards 2022",
-            content: "Gloria Olufeko, she's also a real estate event host, hosted series of real estate award winning events and also hosted the Real Estate Excellence Awards 2022 and other events.",
+            title: "EVENTUALITY",
+            content: "In 2022, Gloria anchored the 4th Edition of Eventually organized by Eventecure. Event is a non-profitable conference set to give back to entrepreneurs and businesses in the event industry.",
+            content2: "The Conference had it's aim to focus on how businesses can create structure in what they do and how it can outline them to remain as a legacy",
+            content3: "It brought to it's platform distinguished and renowned speakers Gloria did what she loves best the best way.",
             gallery1: img1,
             gallery2: img2,
             gallery3: img3,

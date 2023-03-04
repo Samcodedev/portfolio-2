@@ -24,20 +24,30 @@
 }
 .newsLetter .news-card h2 svg{
     margin-left: 20px;
-    color: #fcd916;
+    color: #6f6f6f;
     font-size: 2rem;
     font-weight: 700;
 }
-.newsLetter .news-card button{
-    background-color: #fcd916;
+.newsLetter .news-card a{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    margin: auto 10px;
+    text-decoration-line: none;
+}
+.newsLetter .news-card a button{
+    background-color: #6f6f6f;
     border-radius: 5px;
     font-size: 1.5rem;
-    margin: 5px 10px;
     cursor: pointer;
-    border: 2px solid #fcd916;
+    border: 2px solid #6f6f6f;
+    padding: 5px 15px;
 }
 .newsLetter .news-card button:hover{
     background-color: transparent;
-    color: #fcd916;
-    border: 2px solid #fcd916;
+    color: #6f6f6f;
+    border: 2px solid #6f6f6f;
 }

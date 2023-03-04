@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 import { GiHamburgerMenu } from 'react-icons/gi'
-import { GiCancel} from 'react-icons/gi'
+import { MdClose } from 'react-icons/md'
 import { useState } from 'react'
 import logo from '../img/Gloria-01.png'
 
@@ -26,12 +26,13 @@ const Navbar = () => {
     <div className='navbar'>
       <img src={logo} alt="" />
       <GiHamburgerMenu fontSize={35} onClick={navbar} style={{display: open? "none" : "block"}} />
-      <GiCancel id='cancel' fontSize={35} onClick={navbar} style={{display: open? "block": "none"}} />
+      <MdClose id='cancel' fontSize={35} onClick={navbar} style={{display: open? "block": "none"}} />
       <div className="dd" style={{display: open ? "flex" : "none"}}>
         <ul>
           <Link to="/" onClick={navbar}><li>Home</li></Link>
           <Link to="/about" onClick={navbar}><li>About</li></Link>
-          <Link to="" onClick={navbar}><li>Contact Me</li></Link>
+          {/* <Link to="/about" onClick={navbar}><li>Gallery</li></Link> */}
+          <Link to="/connect" onClick={navbar}><li>Contact Me</li></Link>
         </ul>
       </div>
     </div>

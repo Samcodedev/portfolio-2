@@ -1,0 +1,43 @@
+.csocial{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #30323d;
+    gap: 15px;
+    cursor: pointer;
+    max-width: 90%;
+    animation: card 2s ease-in-out;
+    position: relative;
+    border-radius: 10px;
+}
+@keyframes card {
+    from{
+        top: -10%;
+        opacity: 0;
+    }
+    to{
+        top: 0%;
+        opacity: 100%;
+    }
+}
+.csocial .text-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+}
+.csocial .text-div h1{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: #d3cfcf;
+}
+.csocial .text-div p{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 15px;
+    word-spacing: 2px;
+    color: #a2a1a1;
+    font-weight: 100;
+}

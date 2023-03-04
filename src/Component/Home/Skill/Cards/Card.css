@@ -1,0 +1,44 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8a8a8a;
+    width: 350px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-grow: 3;
+    max-width: 50%;
+}
+.card a{
+    width: 100%;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+.card p{
+    color: #30323d;
+}
+.card:hover{
+    background-color: #30323d;
+}
+.card:hover p{
+    color: #8a8a8a;
+}
+.card:hover svg{
+    color: #8a8a8a;
+}
+.card a svg{
+    color: #30323d;
+}
+.card a h1{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+    .card{
+        max-width: 100%;
+    }
+}

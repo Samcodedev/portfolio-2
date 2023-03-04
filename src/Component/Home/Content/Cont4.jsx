@@ -2,18 +2,19 @@ import React from 'react'
 import ContCard from '../../Comp/ContCard'
 import './Cont4.css'
 
-import prof2 from '../../img/053.jpg'
-import img1 from '../../img/013.jpg'
-import img2 from '../../img/009.jpg'
-import img3 from '../../img/IMG_9585.jpg'
-import img4 from '../../img/IMG_20221116_121821_861s.jpg'
+import prof2 from '../../img/IMG_2536.jpg'
+import img1 from '../../img/IMG_2538.jpg'
+import img2 from '../../img/IMG_2581.jpg'
+import img3 from '../../img/IMG_2784.jpg'
+import img4 from '../../img/IMG_2827.jpg'
 
 const Cont4 = () => {
 
     const data4 = [
         {
-            title: "Nigeria Healthcare Investment Forum",
-            content: "Gloria Olufeko also hosted an healthcare investment event, planning in enhancing healthcare investment in emerging markets.",
+            title: "THE RECALIBRATE",
+            content: "She also hosted the Recalibrate Conference in 2022 convened by Funto Ibuoye. This conference like no other was a spectacular meeting which was a blessing.",
+            content2: "For whatever meeting it is, Gloria hosts it well and it is always beyond your imagination.",
             gallery1: img1,
             gallery2: img2,
             gallery3: img3,
