@@ -17,25 +17,25 @@ const social = () => {
             title: "Twitter Connect",
             content: "Coaching, Business tips and inspiring tweets",
             icon: <BsTwitter fontSize="45px" color='#1da1f2' />,
-            link: "https://twitter.com/leyislee?t=G1MYKugE0-EgidbC4SoVvg&s=09"
+            link: "https://twitter.com/"
         },
         {
             title: "LinkedIn Connect",
             content: "Connecting and networking in term of business",
             icon: <BsLinkedin fontSize="45px" color='#0072b1' />,
-            link: "https://www.linkedin.com/in/olaleye-rosiji"
+            link: "https://www.linkedin.com/in/gloria-olufeko"
         },
         {
             title: "Facebook Connect",
-            content: "Upcoming coaching and mentorship programs",
+            content: "Mentorship and latest events",
             icon: <BsFacebook fontSize="45px" color='#3b5998' />,
-            link: "https://facebook.com/olaleye.rosiji"
+            link: "https://facebook.com/"
         },
         {
             title: "Instagram Connect",
-            content: "Bible teaching, coaching and love mentorship programs",
+            content: "Mentorship, Diction-coaching and latest events",
             icon: <BsInstagram fontSize="45px" color='#bc2a8d' />,
-            link: "https://instagram.com/leyerosiji?igshid=YmMyMTA2M2Y="
+            link: "https://instagram.com/thegloriaolufeko/"
         }
     ]
 
