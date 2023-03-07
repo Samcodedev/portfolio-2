@@ -9,8 +9,7 @@ const TesCard = (props) => {
         </div>
         <div className="text-div">
             <p>{props.content}</p>
-            <h4>{props.name}</h4>
-            <span>{props.job}</span>
+            <span>{props.name}</span>
         </div>
     </div>
   )

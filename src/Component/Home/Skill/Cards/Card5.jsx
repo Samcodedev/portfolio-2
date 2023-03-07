@@ -2,19 +2,24 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { MdRecordVoiceOver } from 'react-icons/md'
 import './Card.css'
-import img from '../../../img/IMG_20221116_121815_546s.jpg'
+import img from '../../../img/profile-2.png'
+import img1 from '../../../img/Screenshot_20230307-182714_Instagram.jpg'
+import img2 from '../../../img/Screenshot_20230307-142946_Instagram.jpg'
+import img3 from '../../../img/Screenshot_20230307-182440_Instagram.jpg'
+import img4 from '../../../img/Screenshot_20230307-143010_Instagram.jpg'
 
 const Card5 = () => {
 
     const data = [
         {
             title: "Communication Specialist",
-            content: "With a graduate degree in English Language, Gloria coaches and teaches diction and communication skills. She has been able to train over 1000 students online and offline.",
+            content: "She has trained businesses and organizations on how to communicate with their clients.",
+
             img: img,
-            gallery1: img,
-            gallery2: img,
-            gallery3: img,
-            gallery4: img,
+            gallery1: img1,
+            gallery2: img2,
+            gallery3: img3,
+            gallery4: img4,
         }
     ]
 

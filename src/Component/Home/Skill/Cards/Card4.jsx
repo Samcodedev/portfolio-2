@@ -2,19 +2,24 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { TbMicrophone2 } from 'react-icons/tb'
 import './Card.css'
-import img from '../../../img/IMG_20221116_121815_546s.jpg'
+import img from '../../../img/Screenshot_20230307-143022_Instagram.jpg'
+import img1 from '../../../img/IMG_8340.jpg'
+import img2 from '../../../img/IMG_9168.jpg'
+import img3 from '../../../img/IMG_9717.jpg'
+import img4 from '../../../img/IMG_9623.jpg'
 
 const Card4 = () => {
 
     const data = [
         {
             title: "International Event Compere",
-            content: "With a graduate degree in English Language, Gloria coaches and teaches diction and communication skills. She has been able to train over 1000 students online and offline.",
+            content: "Gloria has hosted Conference, Work shops, Weddings, Seminars, Summits, Book launches at several parts of the country and even outside of Nigeria.",
+            content2: "For any event hosting, Gloria exudes only excellence. You can trust your event to be perfect, beyond your imagination.",
             img: img,
-            gallery1: img,
-            gallery2: img,
-            gallery3: img,
-            gallery4: img,
+            gallery1: img1,
+            gallery2: img2,
+            gallery3: img3,
+            gallery4: img4,
         }
     ]
 

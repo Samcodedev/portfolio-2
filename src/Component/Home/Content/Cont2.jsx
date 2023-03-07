@@ -3,10 +3,10 @@ import ContCard from '../../Comp/ContCard'
 import './Cont2.css'
 
 import prof2 from '../../img/IMG-20230301-WA0045.jpg'
-import img1 from '../../img/IMG_9675.jpg'
-import img2 from '../../img/IMG_9623.jpg'
-import img3 from '../../img/IMG_9585.jpg'
-import img4 from '../../img/IMG_9630.jpg'
+import img1 from '../../img/Screenshot_20230307-183858_Instagram.jpg'
+import img2 from '../../img/Screenshot_20230307-183856_Instagram.jpg'
+import img3 from '../../img/Screenshot_20230307-183820_Instagram.jpg'
+import img4 from '../../img/Screenshot_20230307-183838_Instagram.jpg'
 
 const Cont2 = () => {
 

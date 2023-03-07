@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer'>
       <div className="sub-footer">
         <div className="copy">
-          <small>Copyright 2022 samcode. All rights reserved</small>
+          <small>Copyright 2023 samcode. All rights reserved</small>
         </div>
         <div className="icon">
           <BsInstagram />

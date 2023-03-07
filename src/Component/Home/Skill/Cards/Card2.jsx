@@ -2,19 +2,25 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { BsBroadcast } from 'react-icons/bs'
 import './Card.css'
-import img from '../../../img/IMG_20221116_121815_546s.jpg'
+import img from '../../../img/IMG_20221116_121837_854s.jpg'
+import img1 from '../../../img/Screenshot_20230211-105229_Instagram.jpg'
+import img2 from '../../../img/Screenshot_20230307-184023_Instagram.jpg'
+import img3 from '../../../img/Screenshot_20230211-104218_Instagram.jpg'
+import img4 from '../../../img/Screenshot_20230307-183922_Instagram.jpg'
 
 const Card2 = () => {
 
     const data = [
         {
             title: "Award winning broadcast",
-            content: "Gloria is an award-winning broadcaster with special love for the radio.",
+            content: "As an Award winning broadcast, Gloria has a special love for the radio. In show of her excellence, she won the Nigeria's 25 under 25 awards for Media & Communication in 2021.",
+            content2: "She has had the privileges of working in different radio stations and she conducts interviews with celebrities and Renowned personalities whilst driving conversation that can change the community.",
+            content3: "",
             img: img,
-            gallery1: img,
-            gallery2: img,
-            gallery3: img,
-            gallery4: img
+            gallery1: img1,
+            gallery2: img2,
+            gallery3: img3,
+            gallery4: img4
         }
     ]
 

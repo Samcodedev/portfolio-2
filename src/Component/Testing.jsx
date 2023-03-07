@@ -16,6 +16,8 @@ const Testing = () => {
             <div className="text-div">
                 <h2>{location.state.id.title}</h2>
                 <p>{location.state.id.content}</p>
+                <p>{location.state.id.content2}</p>
+                <p>{location.state.id.content3}</p>
                 <div className="gallery">
                     <img src={location.state.id.gallery1} alt="gallery list" />
                     <img src={location.state.id.gallery2} alt="gallery list" />
