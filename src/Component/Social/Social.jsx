@@ -11,13 +11,13 @@ const social = () => {
             title: "Email Messaging",
             content: "Get in touch with me for business collaborations.",
             icon: <MdEmail fontSize="50px" color="#d65e5e" />,
-            link: ""
+            link: "https://www.bookgloria@gmail.com"
         },
         {
             title: "Twitter Connect",
             content: "Coaching, Business tips and inspiring tweets",
             icon: <BsTwitter fontSize="45px" color='#1da1f2' />,
-            link: "https://twitter.com/"
+            link: "https://twitter.com/GOlufeko?t=xi_wb95fZpSAOLTc-_BS_Q&s=09"
         },
         {
             title: "LinkedIn Connect",

@@ -15,9 +15,13 @@
     display: flex;
     gap: 20px;
 }
-.footer .icon svg{
-    cursor: pointer;
+.footer .icon a{
+    text-decoration: none;
 }
-.footer .icon svg:hover{
+.footer .icon a svg{
+    cursor: pointer;
+    color: #ffffff;
+}
+.footer .icon a svg:hover{
     color: #fcd916;
 }

@@ -7,7 +7,7 @@ function NewsLetter() {
     <div className='newsLetter'>
       <div className="news-card">
         <h2>Subscribe to my news letter </h2>
-        <a href="https://mail.google.com"><button>Subscribe</button></a>
+        <a href="https://gloriaolufeko.minisite.ai/"><button>Subscribe</button></a>
       </div>
     </div>
   )

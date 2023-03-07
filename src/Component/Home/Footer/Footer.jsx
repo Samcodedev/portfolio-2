@@ -10,9 +10,9 @@ const Footer = () => {
           <small>Copyright 2023 samcode. All rights reserved</small>
         </div>
         <div className="icon">
-          <BsInstagram />
-          <BsTwitter />
-          <BsLinkedin />
+          <a href="https://instagram.com/thegloriaolufeko/"><BsInstagram /></a>
+          <a href="https://twitter.com/GOlufeko?t=xi_wb95fZpSAOLTc-_BS_Q&s=09"><BsTwitter /></a>
+          <a href="https://www.linkedin.com/in/gloria-olufeko"><BsLinkedin /></a>
         </div>
       </div>
     </div>
