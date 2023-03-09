@@ -13,7 +13,7 @@ const Card1 = () => {
     const data = [
         {
             title: "Voice-Over Artist",
-            content: "She is an accomplished voice over artist who has worked on adverts for brands such as Craving, Selar, terminal Africa.",
+            content: "Gloria is an accomplished voice over artist who has worked on adverts for brands such as Cravings, Selar, Terminal Africas.",
             content2: "Her beautiful and dynamic voice is a selling point for Gloria as she has the ability to give life to your ideas through audio and or video format.",
             content3: "For a second time, she worked on an advert for Selar who is Africa's largest Digital platform. That can only mean a thing. Excellence. Gloria has the voice to bring your adverts and ideas to life.",
             img: img,

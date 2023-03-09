@@ -13,7 +13,7 @@ const Cont6 = () => {
     const data4 = [
         {
             title: "TEDX JIBOWU",
-            content: "Ever green TedX Jibowu organized by trailblazing Olorunfemi Prosperity and Denu Bon was hosted by Gloria Olufeko. The Phenomenal speaker who graced the occasion were Dr Olumide Emmanuel a renowned real estate coach, Steven Loya Future Minister of Education...",
+            content: "The evergreen TedX Jibowu organized by trailblazing Olorunfemi Prosperity and Denu Bon was hosted by Gloria Olufeko. The Phenomenal speaker who graced the occasion were Dr Olumide Emmanuel a renowned real estate coach, Steven Loya Future Minister of Education...",
             content2: "Tope Mark Odigie a TV Personality/ Real estate professional and Chinonson Fidelis Egemba aka aproko doctor.",
             content3: "Renowned personalities and dignitaries were in attendance. It was indeed a conference to be remembered.",
             gallery1: img1,

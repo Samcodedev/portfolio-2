@@ -13,7 +13,7 @@ const Cont3 = () => {
     const data3 = [
         {
             title: "EVENTUALITY",
-            content: "In 2022, Gloria anchored the 4th Edition of Eventually organized by Eventecure. Event is a non-profitable conference set to give back to entrepreneurs and businesses in the event industry.",
+            content: "In 2022, Gloria anchored the 4th Edition of Eventually organized by Eventecure. Eventually is a non-profitable conference set to give back to entrepreneurs and businesses in the event industry.",
             content2: "The Conference had it's aim to focus on how businesses can create structure in what they do and how it can outline them to remain as a legacy",
             content3: "It brought to it's platform distinguished and renowned speakers Gloria did what she loves best the best way.",
             gallery1: img1,

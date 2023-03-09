@@ -16,7 +16,7 @@ const Head = () => {
                 <span>Hello i'm Gloria</span>
                 <h1>International Events Compere</h1>
                 <p>
-                  Hello, I’m Gloria Olufeko and welcome to my world. 
+                  Hello, I’m Gloria Olufeko you are welcome to my world. 
                   I am so excited to have you here. This is a platform where I can get to connect with my clients, share my values and career growth. 
 
                   Please feel free to explore and book one or more of my services. 

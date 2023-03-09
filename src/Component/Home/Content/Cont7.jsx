@@ -13,7 +13,7 @@ const Cont7 = () => {
     const data3 = [
         {
             title: "HAPAG LLYOD",
-            content: "For the celebration of Hapallog's 175th Anniversary and it's 2nd year Existence in Nigeria, Gloria Olufeko had the honours to be the compere of the event. Hapag Llyod a renowned brand in the shipping industry has over the years, continued to be a global leader in the field.",
+            content: "For the celebration of Hapag Llyod's 175th Anniversary and it's 2nd year Existence in Nigeria, Gloria Olufeko had the honours to be the compere of the event. Hapag Llyod a renowned brand in the shipping industry has over the years, continued to be a global leader in the field.",
             content2: "The event was a celebration of their hard work over the years and Gloria directed the affairs of this event from the start to finish which had a smooth flow of event.",
             gallery1: img1,
             gallery2: img2,
