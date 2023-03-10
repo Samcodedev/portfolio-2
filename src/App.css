@@ -1,9 +1,11 @@
 /* @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext'); */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
 html, body{
-  font-family: sans-serif;
+  font-weight: 700;
   background-color: #ffffff;
   margin: 0;
   padding: 0;
+  font-family: 'PT Serif', serif;
 }
 p{
   color: #4d5061;
@@ -16,7 +18,7 @@ h1, h2, h3, h4{
 
 }
 span{
-  color: #fcd916;
+  color: #807f7e;
   font-weight: 800; 
 }
 button{
@@ -26,4 +28,5 @@ button{
   border: 2px solid #30323d;
   font-weight: 400;
   font-weight: bolder;
+  font-family: 'PT Serif', serif;
 }

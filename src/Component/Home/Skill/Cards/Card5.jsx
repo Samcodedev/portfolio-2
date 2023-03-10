@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom'
 import { MdRecordVoiceOver } from 'react-icons/md'
 import './Card.css'
 import img from '../../../img/profile-2.png'
-import img1 from '../../../img/Screenshot_20230307-182714_Instagram.jpg'
-import img2 from '../../../img/Screenshot_20230307-142946_Instagram.jpg'
-import img3 from '../../../img/Screenshot_20230307-182440_Instagram.jpg'
-import img4 from '../../../img/Screenshot_20230307-143010_Instagram.jpg'
 
 const Card5 = () => {
 
@@ -16,10 +12,9 @@ const Card5 = () => {
             content: "She has trained businesses and organizations on how to communicate with their clients.",
 
             img: img,
-            gallery1: img1,
-            gallery2: img2,
-            gallery3: img3,
-            gallery4: img4,
+            gallery1: "https://www.instagram.com/p/CagvaSYjOFO/?utm_source=ig_web_copy_link",
+            gallery2: "https://www.instagram.com/p/CY0gT0njOeX/?utm_source=ig_web_copy_link",
+            gallery3: "https://www.instagram.com/p/CTmVIMFDBBq/?utm_source=ig_web_copy_link"
         }
     ]
 

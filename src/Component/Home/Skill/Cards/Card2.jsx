@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 import { BsBroadcast } from 'react-icons/bs'
 import './Card.css'
 import img from '../../../img/IMG_20221116_121837_854s.jpg'
-import img1 from '../../../img/Screenshot_20230211-105229_Instagram.jpg'
-import img2 from '../../../img/Screenshot_20230307-184023_Instagram.jpg'
-import img3 from '../../../img/Screenshot_20230211-104218_Instagram.jpg'
-import img4 from '../../../img/Screenshot_20230307-183922_Instagram.jpg'
+// import img1 from '../../../img/Screenshot_20230211-105229_Instagram.jpg'
+// import img2 from '../../../img/Screenshot_20230307-184023_Instagram.jpg'
+// import img3 from '../../../img/Screenshot_20230211-104218_Instagram.jpg'
+// import img4 from '../../../img/Screenshot_20230307-183922_Instagram.jpg'
 
 const Card2 = () => {
 
@@ -17,10 +17,9 @@ const Card2 = () => {
             content2: "She has had the privileges of working in different radio stations and she conducts interviews with celebrities and Renowned personalities whilst driving conversation that can change the community.",
             content3: "",
             img: img,
-            gallery1: img1,
-            gallery2: img2,
-            gallery3: img3,
-            gallery4: img4
+            gallery1: "https://www.instagram.com/reel/CWlmR_Zjt4t/?utm_source=ig_web_copy_link",
+            gallery2: "https://www.instagram.com/p/CIvxyYEBYWu/?utm_source=ig_web_copy_link",
+            gallery3: "https://www.instagram.com/p/CHyBo6rhp9O/?utm_source=ig_web_copy_link"
         }
     ]
 

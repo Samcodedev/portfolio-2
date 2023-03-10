@@ -1,6 +1,7 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
 import './Testing.css'
+import { InstagramEmbed } from 'react-social-media-embed'
 
 const Testing = () => {
 
@@ -19,10 +20,15 @@ const Testing = () => {
                 <p>{location.state.id.content2}</p>
                 <p>{location.state.id.content3}</p>
                 <div className="gallery">
-                    <img src={location.state.id.gallery1} alt="gallery list" />
-                    <img src={location.state.id.gallery2} alt="gallery list" />
-                    <img src={location.state.id.gallery3} alt="gallery list" />
-                    <img src={location.state.id.gallery4} alt="gallery list" />
+                    <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '30px'}}>
+                        <InstagramEmbed url={location.state.id.gallery1} height={600} />
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '30px'}}>
+                        <InstagramEmbed url={location.state.id.gallery2} height={600} />
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '30px'}}>
+                        <InstagramEmbed url={location.state.id.gallery3} height={600} />
+                    </div>
                 </div>
             </div>
         </div>
