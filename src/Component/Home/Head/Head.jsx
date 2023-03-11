@@ -14,7 +14,7 @@ const Head = () => {
             </div>
             <div className="text-div">
                 <span>Hello i'm Gloria</span>
-                <h1>International Events Compere</h1>
+                <h1>Media Personality</h1>
                 <p>
                   Hello, I’m Gloria Olufeko you are welcome to my world. 
                   I am so excited to have you here. This is a platform where I can get to connect with my clients, share my values and career growth. 
